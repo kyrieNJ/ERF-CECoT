@@ -36,7 +36,7 @@ For annotation of the C2D2-EMO dataset, we employed DeepSeek as the annotation m
 <img width="627" height="932" alt="image" src="https://github.com/user-attachments/assets/e44db537-4ed6-46ac-8f6f-3fcdae14697a" />
 
 ## Detailed information on few-shot samples
-# Table 1. Detailed information on few-shot samples
+### Table 1. Detailed information on few-shot samples
 
 | Few-shot samples | Llama3 | ERF-CECoT |
 |------------------|--------|-----------|

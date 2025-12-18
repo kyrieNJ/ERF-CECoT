@@ -15,15 +15,21 @@ An Empathetic Response Generation Framework Based on the Cognitive-Emotion Chain
 * jieba 0.42.1
 
 ## Train stage
-* You can train the model, run the code [train4cd.py](./ERF-CECoT/pretrain/train4cd.py).
+* You can train the model for cognitive distortion detector, run the code [train4cd.py](./ERF-CECoT/pretrain/train4cd.py).
 ```bash
-python ./SM-HK/train.py 
+python ./pretrain/train4cd.py 
 ```
-* You can also use the trained model to infer the results for the given data, run the code [infer.py](./SM-HK/infer.py).
+* You can train the model for emotion detector, run the code [train4emo.py](./ERF-CECoT/pretrain/train4emo.py).
 ```bash
-python ./SM-HK/infer.py 
+python ./pretrain/train4emo.py 
+```
+* You can also use the trained model to infer the results for the given data, run the code [infer4cdemo.py](./ERF-CECoT/pretrain/infer4cdemo.py).
+```bash
+python ./pretrain/infer4cdemo.py 
 ```
 
 ## Citation
-
 If our work has been helpful to you, please mark references to our work in your research and thank you for your support.
+
+## Detailed information on few-shot samples
+<img width="627" height="932" alt="image" src="https://github.com/user-attachments/assets/e44db537-4ed6-46ac-8f6f-3fcdae14697a" />

@@ -1,0 +1,1 @@
+This project uses the LLaMA-Factory framework. For detailed installation and usage instructions, please refer to: [link]([https://huggingface.co/google-bert/bert-base-chinese](http://hub.com/hiyouga/LLaMA-Factory/blob/main/README_zh.md)).

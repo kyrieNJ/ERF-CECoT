@@ -1,5 +1,6 @@
 # ERF-CECoT
 Code for our paper:
+
 An Empathetic Response Generation Framework Based on the Cognitive-Emotion Chain-of-Thought
 
 ## Requirements

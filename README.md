@@ -45,6 +45,7 @@ If our work has been helpful to you, please mark references to our work in your 
 
 ## Detailed instructions for labeling
 For annotation of the C2D2-EMO dataset, we employed DeepSeek as the annotation model. The prompt used during annotation is shown below. For data verification, we assembled an annotation expert team comprising one attending psychiatrist and two master's degree students in relevant fields (all members completed specialized training and passed consistency testing). We strictly adhered to the definitions of the emotion classification system proposed by Ekman. During the decision-making process, when the annotations of the three experts diverged, the case was submitted to the psychiatrist for arbitration. The final annotation was determined through internal team discussion. To ensure internal consistency, we randomly selected 10\% of the samples for re-annotation by the entire team to calculate the Kappa coefficient. If the coefficient was low, the team discussed and updated the annotation standards.
+
 <img width="627" height="932" alt="image" src="https://github.com/user-attachments/assets/e44db537-4ed6-46ac-8f6f-3fcdae14697a" />
 
 ## Analysis of Few-shot Examples

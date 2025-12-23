@@ -34,6 +34,7 @@ If our work has been helpful to you, please mark references to our work in your 
 
 ## Details of emotion label reclassification.
 ### Table 1. Details of emotion label reclassification.
+
 | Category   | Original Emotion Labels                                                                                     |
 | :--------- | :---------------------------------------------------------------------------------------------------------------- |
 | Anger      | Angry, Annoyed, Furious, Jealous                                                                                 |
@@ -53,6 +54,7 @@ To analyze the impact of varying few-shot sample sizes on model performance, we 
 
 From Figure 1, we can observe that as the number of few-shot samples increases, Llama3 exhibits a significant overall decline in performance. Although both Dist-1 and Dist-2 values show an increase when the few-shot sample count is 6, they remain substantially lower than the optimal performance values. In contrast, ERF-CECoT exhibits a smaller overall decline in performance, particularly showing Dist-1 and Dist-2 metrics that are noticeably higher than zero-shot levels. We analyze that this may be because: an excessive number of few-shot samples causes Llama3 to learn fixed response patterns from these samples, leading to uniformly generated empathetic responses when addressing other seekers' input content. Conversely, ERF-CECoT leveraged a few-shot samples to learn insights about the seeker's cognitive state and emotion, as well as response logic based on chain-of-thought reasoning. This enables ERF-CECoT to generate responses that combine empathy with clinical logic across diverse scenarios, validating the robustness of our proposed ERF-CECoT framework.
 <img width="1337" height="368" alt="image" src="https://github.com/user-attachments/assets/bd26d933-ceef-4644-b164-bec2e7b318c0" />
+
 Figure 1. Performance comparison between Llama3 and ERF-CECoT under different numbers of few-shot examples.
 
 ### Table 2. Detailed information on few-shot samples.

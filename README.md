@@ -31,6 +31,7 @@ python ./pretrain/infer4cdemo.py
 
 ## Citation
 If our work has been helpful to you, please mark references to our work in your research and thank you for your support.
+```bash
 @article{wan2026empathetic,
   title={An Empathetic Response Generation Framework Based on the Cognition-Emotion Chain-of-Thought},
   author={Wan, Yujie and Dong, Zaiquan and Li, Yao and Zhou, Hanwen and Jiang, Baoxing and Ju, Shenggen},
@@ -38,6 +39,7 @@ If our work has been helpful to you, please mark references to our work in your 
   year={2026},
   publisher={IEEE}
 }
+```
 
 ## Details of emotion label reclassification.
 ### Table 1. Details of emotion label reclassification.
